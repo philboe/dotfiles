@@ -1,0 +1,31 @@
+#! /bin/sh
+bash /home/pb/.fehbg
+python /home/pb/Documents/projects/python/gapod/gapod/gapod.py &
+compton &
+nm-applet &
+sxhkd &
+polybar 1440p &
+setxkbmap us &
+
+
+bspc config top_padding          19
+bspc config border_width         2
+bspc config window_gap           4
+bspc config click_to_focus       true
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+bspc config focus_by_distance    true
+bspc config history_aware_focus  true
+
+
+bspc monitor eDP1 -d browse work com 
+bspc monitor DP2-2 -d III
+bspc monitor DP2-1 -d II
+
+bspc rule -a gmrun state=floating
+bspc rule -a Gimp desktop=^8 state=floating follow=on
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+bspc rule -a chromium desktop=^browse
