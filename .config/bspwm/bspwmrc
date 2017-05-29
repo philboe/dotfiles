@@ -1,10 +1,12 @@
 #! /bin/sh
-bash /home/pb/.fehbg
-python /home/pb/Documents/projects/python/gapod/gapod/gapod.py &
+bash ~/.screenlayout/dectris.sh
+python ~/Documents/projects/python/gapod/gapod/gapod.py &
 compton &
 nm-applet &
 sxhkd &
-polybar 1440p &
+polybar 1080p1 &
+polybar 1080p2 &
+polybar Laptop1080p &
 setxkbmap us &
 
 

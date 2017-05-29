@@ -62,9 +62,9 @@ tray-position = right
 tray-padding = 4
 wm-restack = bspwm
 
-[bar/1080p]
+[bar/1080p1]
 
-monitor  = DP2-2
+monitor  = DP1-1
 dock = true
 width = 100%
 height = 15
@@ -90,6 +90,42 @@ font-1 = siji:pixelsize=10;0
 font-2 = unifont:size=6;-1
 
 modules-left = backlight 
+modules-center = bspwm
+modules-right = volume date
+
+
+tray-background = #33ffffff
+tray-position = right
+tray-padding = 4
+wm-restack = bspwm
+[bar/1080p2]
+
+monitor  = DP1-2
+dock = true
+width = 100%
+height = 15
+offset-x = 0
+offset-y = 0
+
+background = #ee222222
+foreground = #ccfafafa
+linecolor = #666
+
+border-bottom = 2
+border-bottom-color = #333
+
+spacing = 1
+lineheight = 1
+padding-left = 0
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = tamzen:size=9;1
+font-1 = siji:pixelsize=10;0
+font-2 = unifont:size=6;-1
+
+modules-left = backlight
 modules-center = bspwm
 modules-right = volume date
 

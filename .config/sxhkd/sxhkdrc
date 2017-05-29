@@ -4,7 +4,7 @@
 
 # lockscreen
 ctrl + alt + l
-    bash /home/pb/.config/sxhkd/lock.sh
+    bash /home/phbo/.config/sxhkd/lock.sh
 
 
 # terminal emulator
