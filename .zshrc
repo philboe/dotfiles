@@ -3,7 +3,8 @@
 
 # Path to your oh-my-zsh installation.
   export ZSH=/home/phbo/.oh-my-zsh
-
+export _JAVA_AWT_WM_NONREPARENTING=1
+ export TERM=vt100
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
