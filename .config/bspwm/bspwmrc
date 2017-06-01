@@ -22,8 +22,8 @@ bspc config history_aware_focus  true
 
 
 bspc monitor eDP1 -d browse work com 
-bspc monitor DP2-2 -d III
-bspc monitor DP2-1 -d II
+bspc monitor DP2-2 -d I II III
+bspc monitor DP2-1 -d IV V VI
 
 bspc rule -a gmrun state=floating
 bspc rule -a Gimp desktop=^8 state=floating follow=on
