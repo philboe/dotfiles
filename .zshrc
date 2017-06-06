@@ -3,12 +3,11 @@
 
 # Path to your oh-my-zsh installation.
   export ZSH=/home/phbo/.oh-my-zsh
-export _JAVA_AWT_WM_NONREPARENTING=1
- export TERM=vt100
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="afowler"
+ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -52,7 +51,7 @@ ZSH_THEME="afowler"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(jira git yum docker systemd git-extras ssh-agent)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 

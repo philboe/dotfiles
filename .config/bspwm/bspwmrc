@@ -8,7 +8,7 @@ polybar 1080p1 &
 polybar 1080p2 &
 polybar Laptop1080p &
 setxkbmap us &
-
+wmname LG3D & 
 
 bspc config top_padding          19
 bspc config border_width         2
