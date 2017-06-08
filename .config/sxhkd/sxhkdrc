@@ -4,7 +4,7 @@
 
 # lockscreen
 ctrl + alt + l
-    bash /home/phbo/.config/sxhkd/lock.sh
+    dm-tool lock
 
 
 # terminal emulator
