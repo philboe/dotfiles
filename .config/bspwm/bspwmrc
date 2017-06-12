@@ -1,7 +1,7 @@
 #! /bin/sh
 bash ~/.screenlayout/dectris.sh
-python ~/Documents/projects/python/gapod/gapod/gapod.py &
-compton &
+#python ~/Documents/projects/python/gapod/gapod/gapod.py &
+#compton &
 nm-applet &
 sxhkd &
 polybar 1080p1 &
