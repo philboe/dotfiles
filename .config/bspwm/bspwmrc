@@ -4,15 +4,14 @@ bash ~/.screenlayout/dectris.sh
 #compton &
 nm-applet &
 sxhkd &
-polybar 1080p1 &
 polybar 1080p2 &
 polybar Laptop1080p &
 setxkbmap us &
-wmname LG3D & 
+wmname LG3D &
 
 bspc config top_padding          19
 bspc config border_width         2
-bspc config window_gap           4
+bspc config window_gap           8
 bspc config click_to_focus       true
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
@@ -20,10 +19,13 @@ bspc config gapless_monocle      true
 bspc config focus_by_distance    true
 bspc config history_aware_focus  true
 
-
-bspc monitor eDP1 -d 4 5 6 
+# 3440x1440
 bspc monitor DP1-2 -d 1 2 3 
-bspc monitor DP1-1 -d 7 8 9 
+bspc wm -a --add-monitor virtualL 440x1440+0+0
+bspc wm -a --add-monitor virtualC 2560x1440+0+0
+bspc wm -a --add-monitor virtualR 440x1440+0+0
+bspc monitor eDP1 -d 4 5 6
+
 
 bspc rule -a gmrun state=floating
 bspc rule -a Gimp desktop=^8 state=floating follow=on
