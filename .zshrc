@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/phbo/.oh-my-zsh
+  export ZSH=/home/pb/.oh-my-zsh
 export _JAVA_AWT_WM_NONREPARENTING=1
  export TERM=vt100
 # Set name of the theme to load. Optionally, if you set this to "random"
